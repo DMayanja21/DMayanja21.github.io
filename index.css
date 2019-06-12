@@ -1,15 +1,17 @@
 body {
 	text-align: center;
-	background-color: #FFFFF;
-	width:800px;
+	width:80%;
 	height: auto;
 	margin: auto;
+	background:#696969;
 }
 ul{
 	text-align: left;
 }
 #footer {
-	text-align: right;
+	background-color:#32CD32;
+	text-align:right;
+	clear: both;
 }
 table, th, td {
 	border: 1px solid black;
@@ -17,9 +19,26 @@ table, th, td {
 	padding: 5px;
 	border-collapse: collapse;
 } 
-table {
-	align-self: center;
+h2 {
+	background:#4169E1;
+	color: #FFFFFF;
 }
-h1, h2 {
-	background-color: #00000FF
+h1{
+	background:#8B0000;
+	color:#FFFFFF;
+}
+#navbar ul{
+	list-style-type: none;
+	text-align: center;
+}
+#container{
+	background:#FFFAFA;
+}
+#projects{
+	width:40%;
+	float: left;
+}
+#profile-link{
+	width:40%;
+	float: right;
 }
