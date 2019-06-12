@@ -1,0 +1,25 @@
+body {
+	text-align: center;
+	background-color: #FFFFF;
+	width:800px;
+	height: auto;
+	margin: auto;
+}
+ul{
+	text-align: left;
+}
+#footer {
+	text-align: right;
+}
+table, th, td {
+	border: 1px solid black;
+	text-align: center;
+	padding: 5px;
+	border-collapse: collapse;
+} 
+table {
+	align-self: center;
+}
+h1, h2 {
+	background-color: #00000FF
+}
