@@ -1,6 +1,5 @@
 body {
 	text-align: center;
-	background-color: #FFFFF;
 	width:800px;
 	height: auto;
 	margin: auto;
@@ -9,7 +8,9 @@ ul{
 	text-align: left;
 }
 #footer {
-	text-align: right;
+	background-color:#A9A9A9;
+	text-align:right;
+	clear: both;
 }
 table, th, td {
 	border: 1px solid black;
@@ -20,6 +21,26 @@ table, th, td {
 table {
 	align-self: center;
 }
-h1, h2 {
-	background-color: #00000FF
+h2 {
+	background:#808080;
+	color: #FFFFFF;
+}
+h1{
+	background:#000000;
+	color:#FFFFFF;
+}
+#navbar ul{
+	list-style-type: none;
+	text-align: center;
+}
+#container{
+	background:#D3D3D3;
+}
+#projects{
+	width:400px;
+	float: left;
+}
+#profile-link{
+	width:400px;
+	float: right;
 }
