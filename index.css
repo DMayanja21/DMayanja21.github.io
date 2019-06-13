@@ -4,6 +4,7 @@ body {
 	height: auto;
 	margin: auto;
 	background:#696969;
+	padding: 5%;
 }
 ul{
 	text-align: left;
@@ -41,4 +42,7 @@ h1{
 #profile-link{
 	width:40%;
 	float: right;
+}
+#container{
+	padding:5%;
 }
